@@ -31,3 +31,21 @@
 /* CONTACT: 문의 박스 제거 후 연락처를 왼쪽 열에 자연스럽게 표시 */
 .contact-grid{display:block;max-width:720px}
 .contact-grid > div{width:100%}
+
+
+/* WORK: Pages CMS 작품명은 이미지에 마우스를 올리면 표시됩니다. */
+.work-item:after{content:none!important;}
+.work-item .work-hover-title{
+  position:absolute;left:0;right:0;bottom:0;z-index:2;
+  padding:45px 22px 20px;box-sizing:border-box;
+  background:linear-gradient(to top,rgba(0,0,0,.79),rgba(0,0,0,0));
+  color:#fff;font-family:Arial,Helvetica,sans-serif;
+  font-size:clamp(13px,1.45vw,19px);font-weight:500;line-height:1.4;
+  text-align:left;overflow-wrap:anywhere;
+  opacity:0;transform:translateY(8px);
+  transition:opacity .24s ease,transform .24s ease;pointer-events:none;
+}
+.work-item:hover .work-hover-title,
+.work-item:focus-visible .work-hover-title{opacity:1;transform:translateY(0)}
+@media(hover:none){.work-item .work-hover-title{opacity:1;transform:none;padding:38px 12px 12px;font-size:13px}}
+@media(prefers-reduced-motion:reduce){.work-item .work-hover-title{transition:none}}
