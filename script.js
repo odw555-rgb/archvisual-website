@@ -3,7 +3,7 @@ const backupProjects = [{"title": "프로젝트 01", "image": "https://static.wi
 const defaultSite = {"hero_eyebrow": "ARCHITECTURE VISUALIZATION STUDIO", "hero_title": "Visualizing architecture.", "home_caption": "High Quality Solutions in Architecture Visualization.", "about_heading": "A CREATIVE COMMUNICATIONS AGENCY", "about_text": "Arch_Visual is a creative studio that specializes in visualisations of architecture, interior and urban scape.\n\nWe are pleased to provide realistic and natural images.", "contact_email": "archvisual555@gmail.com", "contact_phone": "02-541-5214", "contact_mobile": "010-9438-5214"};
 async function readJson(path,fallback){try{const r=await fetch(path+'?v='+Date.now());if(!r.ok)throw new Error('HTTP '+r.status);return await r.json()}catch(e){console.warn(path+' 기본 데이터를 사용합니다.',e);return fallback}}
 async function startSite(){
- const [projects,site]=await Promise.all([readJson('data/projects.json',backupProjects),readJson('data/site.json',defaultSite)]);
+ const [projects,site]=await Promise.all([readJson('projects.json',backupProjects),readJson('site.json',defaultSite)]);
  const usable=Array.isArray(projects)?projects.filter(p=>p && p.image):backupProjects;
  const images=usable.map(p=>p.image);
  const featuredImages=usable.filter(p=>p.featured).slice(0,5).map(p=>p.image);
