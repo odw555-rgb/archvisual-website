@@ -27,3 +27,7 @@
 .top a.logo .logo-wordmark span{font-weight:400!important}
 .top a.logo .logo-wordmark i{font-style:normal!important;color:#939393!important;font-weight:800!important}
 @media(max-width:760px){.top a.logo{gap:10px!important}.top a.logo .logo-symbol{width:27px!important;height:40px!important}.top a.logo .logo-wordmark{font-size:23px!important}}
+
+/* CONTACT: 문의 박스 제거 후 연락처를 왼쪽 열에 자연스럽게 표시 */
+.contact-grid{display:block;max-width:720px}
+.contact-grid > div{width:100%}
