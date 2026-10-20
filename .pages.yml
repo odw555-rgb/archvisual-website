@@ -1,0 +1,53 @@
+media:
+  input: media
+  output: /media
+  rename: safe
+content:
+  - name: projects
+    label: 작품 이미지 관리
+    type: file
+    path: projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: 작품명
+        type: string
+        required: true
+      - name: image
+        label: 작품 이미지
+        type: image
+        required: true
+      - name: featured
+        label: 메인 슬라이드에 표시
+        type: boolean
+  - name: site
+    label: 홈페이지 글 · 연락처
+    type: file
+    path: site.json
+    format: json
+    fields:
+      - name: hero_eyebrow
+        label: 메인 상단 작은 글씨
+        type: string
+      - name: hero_title
+        label: 메인 제목
+        type: string
+      - name: home_caption
+        label: 메인 하단 설명
+        type: string
+      - name: about_heading
+        label: 회사 소개 제목
+        type: string
+      - name: about_text
+        label: 회사 소개 본문
+        type: text
+      - name: contact_email
+        label: 회사 이메일
+        type: string
+      - name: contact_phone
+        label: 대표전화
+        type: string
+      - name: contact_mobile
+        label: 휴대전화
+        type: string
