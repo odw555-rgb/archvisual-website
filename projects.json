@@ -1,22 +1,22 @@
 [
   {
     "title": "프로젝트 01",
-    "image": "https://static.wixstatic.com/media/9d13a4_41a25f48a92f48f2bbc7b53b2b8396e8~mv2.jpg/v1/fill/w_1400,h_1000,al_c,q_85/9d13a4_41a25f48a92f48f2bbc7b53b2b8396e8~mv2.jpg",
+    "image": "/media/07.jpg",
     "featured": true
   },
   {
     "title": "프로젝트 02",
-    "image": "https://static.wixstatic.com/media/9d13a4_f0519fe4ba8748d9b824fbfb16d7208a~mv2.jpg/v1/fill/w_1400,h_1000,al_c,q_85/9d13a4_f0519fe4ba8748d9b824fbfb16d7208a~mv2.jpg",
+    "image": "/media/03-02.jpg",
     "featured": true
   },
   {
     "title": "프로젝트 03",
-    "image": "https://static.wixstatic.com/media/9d13a4_7101ed9769364f1c9c9ff84a5407f633~mv2.jpg/v1/fill/w_1400,h_1000,al_c,q_85/9d13a4_7101ed9769364f1c9c9ff84a5407f633~mv2.jpg",
+    "image": "/media/dasa-the-heart-in-heart.jpg",
     "featured": true
   },
   {
     "title": "프로젝트 04",
-    "image": "https://static.wixstatic.com/media/9d13a4_1bebfa9771124f3a9d91e301a85984c5~mv2.jpg/v1/fill/w_1400,h_1000,al_c,q_85/9d13a4_1bebfa9771124f3a9d91e301a85984c5~mv2.jpg",
+    "image": "/media/file.jpg",
     "featured": true
   },
   {
