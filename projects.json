@@ -208,5 +208,40 @@
     "title": "Bog-yong Elementary School in Daejeon",
     "image": "/media/2023/bog-yong-elementary-school.jpg",
     "featured": false
+  },
+  {
+    "title": "Mix-Use Building in Nonhyeon",
+    "image": "/media/2023/mix-use-building.jpg",
+    "featured": false
+  },
+  {
+    "title": "Mix-Use Building in Nonhyeon",
+    "image": "/media/2023/mix-use-building-2.jpg",
+    "featured": false
+  },
+  {
+    "title": "Residential Complex in Pyeongtaek",
+    "image": "/media/2023/residential-complex-2.jpg",
+    "featured": false
+  },
+  {
+    "title": "Residential Complex in Pyeongtaek",
+    "image": "/media/2023/residential-complex.jpg",
+    "featured": false
+  },
+  {
+    "title": "Culture & Art Center in Incheon",
+    "image": "/media/2023/culture-and-art-center.jpg",
+    "featured": false
+  },
+  {
+    "title": "Ice Rink in Sejong",
+    "image": "/media/2023/ice-rink.jpg",
+    "featured": false
+  },
+  {
+    "title": "Central N49 in Gyeonggi",
+    "image": "/media/2023/central-n49.jpg",
+    "featured": false
   }
 ]
