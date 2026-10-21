@@ -73,5 +73,50 @@
     "title": "Gangbuk_New Office Building in Seoul",
     "image": "/media/2024/08.jpg",
     "featured": false
+  },
+  {
+    "title": "Guwol Dong Building in Incheon",
+    "image": "/media/2024/file.jpg",
+    "featured": false
+  },
+  {
+    "title": "Baekseok Arts University in Seoul",
+    "image": "/media/2024/03-dw.jpg",
+    "featured": false
+  },
+  {
+    "title": "Baekseok Arts University in Seoul",
+    "image": "/media/2024/01-dw.jpg",
+    "featured": false
+  },
+  {
+    "title": "Kimdaejung Convention Center in Gwangju",
+    "image": "/media/2024/kimdaejung-convention-center-3.jpg",
+    "featured": false
+  },
+  {
+    "title": "Kimdaejung Convention Center in Gwangju",
+    "image": "/media/2024/kimdaejung-convention-center-1.jpg",
+    "featured": false
+  },
+  {
+    "title": "Kimdaejung Convention Center in Gwangju",
+    "image": "/media/2024/kimdaejung-convention-center-2.jpg",
+    "featured": false
+  },
+  {
+    "title": "5-2Public Facilities Complex in Sejong",
+    "image": "/media/2024/065-2-public-facilities-complex.jpg",
+    "featured": false
+  },
+  {
+    "title": "5-2Public Facilities Complex in Sejong",
+    "image": "/media/2024/075-2-public-facilities-complex.jpg",
+    "featured": false
+  },
+  {
+    "title": "5-2Public Facilities Complex in Sejong",
+    "image": "/media/2024/5-2public-facilities-complex.jpg",
+    "featured": false
   }
 ]
