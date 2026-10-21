@@ -243,5 +243,45 @@
     "title": "Central N49 in Gyeonggi",
     "image": "/media/2023/central-n49.jpg",
     "featured": false
+  },
+  {
+    "title": "Multiplex Building in Suncheon",
+    "image": "/media/2022/multiplex-building.jpg",
+    "featured": false
+  },
+  {
+    "title": "Multiplex Building in Suncheon",
+    "image": "/media/2022/multiplex-building-2.jpg",
+    "featured": false
+  },
+  {
+    "title": "Multiplex Building in Suncheon",
+    "image": "/media/2022/multiplex-building-3.jpg",
+    "featured": false
+  },
+  {
+    "title": "Theme Park in Hwaseong",
+    "image": "/media/2022/theme-park.jpg",
+    "featured": false
+  },
+  {
+    "title": "Theme Park in Hwaseong",
+    "image": "/media/2022/theme-park-2.jpg",
+    "featured": false
+  },
+  {
+    "title": "Woori Bank in Hoehyeon",
+    "image": "/media/2022/woori-bank-2.jpg",
+    "featured": false
+  },
+  {
+    "title": "Woori Bank in Hoehyeon",
+    "image": "/media/2022/woori-bank.jpg",
+    "featured": false
+  },
+  {
+    "title": "Cheonggye Complex in Uiwang",
+    "image": "/media/2022/cheonggye-complex-2019.jpg",
+    "featured": false
   }
 ]
